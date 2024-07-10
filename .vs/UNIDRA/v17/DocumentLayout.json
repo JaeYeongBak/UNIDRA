@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity\\UNIDRA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|d:\\unity\\unidra\\assets\\unity-chan!\\unity-chan! model\\scripts\\faceupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\unity-chan!\\unity-chan! model\\scripts\\faceupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\unity-chan!\\unity-chan! model\\scripts\\ikctrlrighthand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\unity-chan!\\unity-chan! model\\scripts\\ikctrlrighthand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\playerctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\gamerulectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamerulectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\titlescenectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\titlescenectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\characterstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\enemyctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|D:\\Unity\\UNIDRA\\assets\\scripts\\searcharea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\searcharea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FaceUpdate.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\unity-chan!\\Unity-chan! Model\\Scripts\\FaceUpdate.cs",
+              "RelativeDocumentMoniker": "Assets\\unity-chan!\\Unity-chan! Model\\Scripts\\FaceUpdate.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\unity-chan!\\Unity-chan! Model\\Scripts\\FaceUpdate.cs",
+              "RelativeToolTip": "Assets\\unity-chan!\\Unity-chan! Model\\Scripts\\FaceUpdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T07:44:36.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IKCtrlRightHand.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\unity-chan!\\Unity-chan! Model\\Scripts\\IKCtrlRightHand.cs",
+              "RelativeDocumentMoniker": "Assets\\unity-chan!\\Unity-chan! Model\\Scripts\\IKCtrlRightHand.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\unity-chan!\\Unity-chan! Model\\Scripts\\IKCtrlRightHand.cs",
+              "RelativeToolTip": "Assets\\unity-chan!\\Unity-chan! Model\\Scripts\\IKCtrlRightHand.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T08:13:00.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TitleSceneCtrl.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\TitleSceneCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TitleSceneCtrl.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\TitleSceneCtrl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TitleSceneCtrl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:30:40.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwEEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:06:35.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CharacterMove.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\CharacterMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMove.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\CharacterMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterMove.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwCIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T05:40:10.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemyCtrl.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\EnemyCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyCtrl.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\EnemyCtrl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyCtrl.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAEwLgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T05:34:57.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwE4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T13:04:27.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CharacterStatus.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\CharacterStatus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterStatus.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\CharacterStatus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterStatus.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwFwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:18:46.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerCtrl.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\PlayerCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCtrl.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\PlayerCtrl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerCtrl.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwC8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:55:46.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameRuleCtrl.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\GameRuleCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameRuleCtrl.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\GameRuleCtrl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameRuleCtrl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:12:51.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SearchArea.cs",
+              "DocumentMoniker": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\SearchArea.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SearchArea.cs",
+              "ToolTip": "D:\\Unity\\UNIDRA\\Assets\\Scripts\\SearchArea.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SearchArea.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T05:41:00.785Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
