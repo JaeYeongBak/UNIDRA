@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|c:\\users\\wodud\\documents\\unity\\unidra\\assets\\scripts\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|c:\\users\\wodud\\documents\\unity\\unidra\\assets\\scripts\\npcctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|c:\\users\\wodud\\documents\\unity\\unidra\\assets\\scripts\\characterstatusgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\characterstatusgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterstatusgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\gametimergui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gametimergui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\playerctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\characterstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\gamerulectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamerulectrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\enemyctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7633DB7C-D8D7-B1B7-A78F-1B99C07C15EE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +46,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CharacterStatusGui.cs",
               "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\CharacterStatusGui.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterStatusGui.cs",
               "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\CharacterStatusGui.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterStatusGui.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAUwAUAAAABAAAA",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAowL0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T03:23:52.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T08:34:19.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameTimerGui.cs",
+              "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\GameTimerGui.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameTimerGui.cs",
+              "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\GameTimerGui.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameTimerGui.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:32:59.694Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NPCCtrl.cs",
+              "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\NPCCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCCtrl.cs",
+              "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\NPCCtrl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCCtrl.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAjwFQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:20:26.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameRuleCtrl.cs",
+              "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\GameRuleCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameRuleCtrl.cs",
+              "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\GameRuleCtrl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameRuleCtrl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:04:29.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "QuestManager.cs",
               "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\QuestManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\QuestManager.cs",
               "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\QuestManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\QuestManager.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAUwC0AAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T02:47:18.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\InputManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
-              "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\InputManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAIwE4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:04:27.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T08:21:00.25Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CharacterStatus.cs",
-              "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\CharacterStatus.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterStatus.cs",
-              "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\CharacterStatus.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CharacterStatus.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAADwv2YAAAAJAAAA",
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowFkAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:18:46.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T07:00:28.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "EnemyCtrl.cs",
+              "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\EnemyCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyCtrl.cs",
+              "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\EnemyCtrl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyCtrl.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAA2wLwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:48:35.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerCtrl.cs",
               "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\PlayerCtrl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCtrl.cs",
               "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\PlayerCtrl.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerCtrl.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAQwC8AAAAyAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwBABAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T14:55:46.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T14:55:46.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FollowCamera.cs",
+              "DocumentMoniker": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\FollowCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FollowCamera.cs",
+              "ToolTip": "C:\\Users\\wodud\\Documents\\Unity\\UNIDRA\\Assets\\Scripts\\FollowCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FollowCamera.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:04:10.508Z"
             }
           ]
         }

@@ -8,6 +8,7 @@ public class EnemyCtrl : MonoBehaviour {
 	GameObject attackTarget;
 	GameRuleCtrl gameRuleCtrl;
 	public GameObject hitEffect;
+	QuestManager questManager;
 	
 	// 대기 시간은 2초로 설정한다.
 	public float waitBaseTime = 2.0f;
@@ -41,6 +42,7 @@ public class EnemyCtrl : MonoBehaviour {
 		charaAnimation = GetComponent<CharaAnimation>();
 		characterMove = GetComponent<CharacterMove>();
 		gameRuleCtrl = FindObjectOfType<GameRuleCtrl>();
+		questManager = FindObjectOfType<QuestManager>();
 		// 초기 위치를 저장한다.
 		basePosition = transform.position;
 		// 대기 시간.
@@ -179,12 +181,16 @@ public class EnemyCtrl : MonoBehaviour {
 	{
 		status.died = true;
 		dropItem();
-		Destroy(gameObject);
-		if (gameObject.tag == "Boss")
-		{
-			attackTarget.GetComponent<PlayerCtrl>().setStory(PlayerCtrl.Story.Ending);
-			gameRuleCtrl.GameClear();
-		}
+
+        questManager.QuestCountUp(status.characterName);
+
+        Destroy(gameObject);
+
+        //if (gameObject.tag == "Boss")
+		//{
+		//	attackTarget.GetComponent<PlayerCtrl>().setStory(PlayerCtrl.Story.Ending);
+		//	gameRuleCtrl.GameClear();
+		//}
 
 		// 오디오 재생.
 		AudioSource.PlayClipAtPoint(deathSeClip, transform.position);
@@ -201,8 +207,8 @@ public class EnemyCtrl : MonoBehaviour {
 			status.HP = 0;
 			// 체력이 0이므로 사망 스테이트로 전환한다.
 			ChangeState(State.Died);
-		}
-	}
+        }
+    }
 	
 	// 스테이트가 시작되기 전에 스테이터스를 초기화한다.
 	void StateStartCommon()

@@ -60,18 +60,28 @@ public class InputManager : MonoBehaviour {
 		return Input.mousePosition;
 	}
 
-	public KeyCode ItemKeyDown()
+	public KeyCode KeyDown()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
 			return KeyCode.Alpha1;
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            return KeyCode.Alpha2;
-        }
 
-		return KeyCode.None;
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+            return KeyCode.Alpha2;
+
+		else if(Input.GetKeyDown(KeyCode.Q))
+			return KeyCode.Q;
+
+		else if(Input.GetKeyDown(KeyCode.Escape))
+            return KeyCode.Escape;
+
+        else if (Input.GetKeyDown(KeyCode.Return))
+            return KeyCode.Return;
+
+        else if (Input.GetKeyDown(KeyCode.Space))
+            return KeyCode.Space;
+
+        else
+            return KeyCode.None;
     }
 
 	public bool MenuKeyDown()

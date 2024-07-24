@@ -8,9 +8,12 @@ public class CharacterMove : MonoBehaviour {
 	const float GravityPower = 9.8f; 
 	//　목적지에 도착했다고 보는 정지 거리.
 	const float StoppingDistance = 0.5f;
-	
-	// 현재 이동 속도.
-	Vector3 velocity = Vector3.zero; 
+    // 멈춤확인 시간
+    const float maxStopTime = 0.05f;
+	float stopTime = 0.0f;
+
+    // 현재 이동 속도.
+    Vector3 velocity = Vector3.zero; 
 	// 캐릭터 컨트롤러의 캐시.
 	CharacterController characterController; 
 	// 도착했는가(도착했다 true / 도착하지 않았다 false).
@@ -33,9 +36,9 @@ public class CharacterMove : MonoBehaviour {
 	
 	// 회전 중인가?
 	bool isRotate = false;
-	
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 		characterController = GetComponent<CharacterController>();
 		destination = transform.position;
 	}
@@ -70,7 +73,7 @@ public class CharacterMove : MonoBehaviour {
 
 
 			// 부드럽게 보간 처리.
-			velocity = Vector3.Lerp(currentVelocity, velocity, Mathf.Min(Time.deltaTime * 15.0f, 1.0f));
+			velocity = Vector3.Lerp(currentVelocity, velocity, Mathf.Min(Time.deltaTime * 5.0f, 1.0f));
 			velocity.y = 0;
 
 			
@@ -102,8 +105,16 @@ public class CharacterMove : MonoBehaviour {
 		// CharacterController를 사용해서 움직인다. 
 		characterController.Move(velocity * Time.deltaTime + snapGround);
 		
-		if (characterController.velocity.magnitude < 0.1f)
-            arrived = true;
+		if (characterController.velocity.magnitude < 0.5f)
+        {
+			stopTime += Time.deltaTime;
+
+			if (stopTime > maxStopTime)
+            {
+				stopTime = 0.0f;
+                arrived = true;
+            }
+        }
 
 		// 강제로 방향 변경을 해제한다.
 		if (forceRotate && Vector3.Dot(transform.forward,forceRotateDirection) > 0.99f)

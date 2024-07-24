@@ -8,15 +8,17 @@ public class PlayerCtrl : MonoBehaviour
 	CharacterStatus status;
 	CharaAnimation charaAnimation;
 	Transform attackTarget;
+	public Transform talkNPC;
 	InputManager inputManager;
 	public float attackRange = 1.5f;
 	GameRuleCtrl gameRuleCtrl;
 	public GameObject hitEffect;
 	TargetCursor targetCursor;
 	public bool playerCon;
+	QuestManager questManager;
 	
 	// 스테이트 종류.
-	enum State
+	public enum State
 	{
 		Walking,
 		Attacking,
@@ -31,7 +33,7 @@ public class PlayerCtrl : MonoBehaviour
 		Ending,
     }
 	
-	State state = State.Walking;		// 현재 스테이트.
+	public State state = State.Walking;		// 현재 스테이트.
 	State nextState = State.Walking;    // 다음 스테이트.
 	public Story story;
 
@@ -48,6 +50,7 @@ public class PlayerCtrl : MonoBehaviour
 		gameRuleCtrl = FindObjectOfType<GameRuleCtrl>();
 		targetCursor = FindObjectOfType<TargetCursor>();
 		targetCursor.SetPosition(transform.position);
+		questManager = FindObjectOfType<QuestManager>();
 
 		// 오디오 초기화.
 		deathSeAudio = gameObject.AddComponent<AudioSource>();
@@ -73,7 +76,10 @@ public class PlayerCtrl : MonoBehaviour
 		case State.Attacking:
 			Attacking();
 			break;
-		}
+        case State.Talking:
+			TalkIng();
+            break;
+        }
 		
 		if (state != nextState)
 		{
@@ -86,13 +92,16 @@ public class PlayerCtrl : MonoBehaviour
 			case State.Attacking:
 				AttackStart();
 				break;
+			case State.Talking:
+				TalkStart();
+				break;
             case State.Died:
                 Died();
                 break;
             }
 		}
 
-		UsingItem(inputManager.ItemKeyDown());
+		UsingItem(inputManager.KeyDown());
 	}
 	
 	
@@ -114,7 +123,10 @@ public class PlayerCtrl : MonoBehaviour
 			// RayCast로 대상물을 조사한다.
 			Ray ray = Camera.main.ScreenPointToRay(inputManager.GetCursorPosition());
 			RaycastHit hitInfo;
-			if (Physics.Raycast(ray, out hitInfo, RayCastMaxDistance, (1 << LayerMask.NameToLayer("Ground")) | (1 << LayerMask.NameToLayer("EnemyHit"))))
+			if (Physics.Raycast(ray, out hitInfo, RayCastMaxDistance,
+				(1 << LayerMask.NameToLayer("Ground")) |
+				(1 << LayerMask.NameToLayer("EnemyHit")) |
+				(1 << LayerMask.NameToLayer("NPC"))))
 			{
 				// 지면이 클릭되었다.
 				if (hitInfo.collider.gameObject.layer == LayerMask.NameToLayer("Ground"))
@@ -143,10 +155,25 @@ public class PlayerCtrl : MonoBehaviour
 					}
 				}
 
-				if(hitInfo.collider.gameObject.tag == "NPC")
+				if(hitInfo.collider.gameObject.layer == LayerMask.NameToLayer("NPC"))
 				{
-
-				}
+                    // 수평 거리를 체크해서 대화할지 결정한다.
+                    Vector3 hitPoint = hitInfo.point;
+                    hitPoint.y = transform.position.y;
+                    float distance = Vector3.Distance(hitPoint, transform.position);
+                    if (distance < attackRange)
+                    {
+                        // 대화
+                        talkNPC = hitInfo.collider.transform;
+                        targetCursor.SetPosition(talkNPC.position);
+						ChangeState(State.Talking);
+                    }
+                    else
+                    {
+                        SendMessage("SetDestination", hitInfo.point);
+                        targetCursor.SetPosition(hitInfo.point);
+                    }
+                }
 			}
 		}
 	}
@@ -163,6 +190,19 @@ public class PlayerCtrl : MonoBehaviour
 		
 		// 이동을 멈춘다.
 		SendMessage("StopMove");
+	}
+
+	void TalkStart()
+	{
+		talkNPC.GetComponent<NPCCtrl>().ClickNPC(this);
+	}
+
+	void TalkIng()
+	{
+		if (!talkNPC.GetComponent<NPCCtrl>().isTalk)
+		{
+			ChangeState(State.Walking);
+		}
 	}
 	
 	// 공격 중 처리.

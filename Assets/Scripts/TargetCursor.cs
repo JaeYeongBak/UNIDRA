@@ -12,6 +12,8 @@ public class TargetCursor : MonoBehaviour {
 	Vector3 position = new Vector3( 0.0f, 0.5f, 0.0f );
 	// 각도.
 	float angle = 0.0f;
+
+	public GameObject player;
 	
 	// 위치를 설정한다.
 	public void SetPosition(Vector3 iPosition)
@@ -24,7 +26,7 @@ public class TargetCursor : MonoBehaviour {
 	void Start()
 	{
 		// 초기 위치를 목적지로 설정한다.
-		SetPosition( transform.position );
+		SetPosition( player.transform.position );
 		position = destination;
 	}
 

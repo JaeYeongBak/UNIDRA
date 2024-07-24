@@ -187,6 +187,8 @@ public class CharacterStatusGui : MonoBehaviour
         // 스테이터스.
         DrawPlayerStatus();
         DrawEnemyStatus();
-        ItemQuickSlot();
+
+        if(playerStatus.gameObject.GetComponent<PlayerCtrl>().state != PlayerCtrl.State.Talking)
+            ItemQuickSlot();
     }
 }

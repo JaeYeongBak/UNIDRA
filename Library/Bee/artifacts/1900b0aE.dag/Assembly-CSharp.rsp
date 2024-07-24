@@ -371,6 +371,8 @@
 "Assets/Scripts/HitArea.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/MenuManager.cs"
+"Assets/Scripts/NPCAnimator.cs"
+"Assets/Scripts/NPCCtrl.cs"
 "Assets/Scripts/PlayerCtrl.cs"
 "Assets/Scripts/QuestManager.cs"
 "Assets/Scripts/SearchArea.cs"

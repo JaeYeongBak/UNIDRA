@@ -8,6 +8,7 @@ public class FollowCamera : MonoBehaviour {
 	public float verticalAngle = 10.0f;
 	public GameObject targetPlayer;
 	public Vector3 offset = Vector3.zero;
+    public Vector3 NPCTalkOffset = Vector3.zero;
 
     PlayerCtrl playerCtrl;
 
@@ -15,6 +16,16 @@ public class FollowCamera : MonoBehaviour {
 
 	void CameraFollowPlayer()
     {
+        if(playerCtrl.state == PlayerCtrl.State.Talking)
+        {
+            transform.position = playerCtrl.talkNPC.transform.position
+                + (playerCtrl.talkNPC.transform.forward * 5.0f) + NPCTalkOffset;
+            transform.rotation = playerCtrl.talkNPC.transform.rotation;
+            transform.Rotate(0.0f, 180.0f, 0.0f);
+
+            return;
+        }
+
         // 드래그 입력으로 카메라 회전각을 갱신한다.
         if (inputManager.Moved())
         {
